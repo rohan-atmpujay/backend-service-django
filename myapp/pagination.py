@@ -10,4 +10,4 @@ class BookOffsetPagination(LimitOffsetPagination):
     
 class BookCursorPagination(CursorPagination):
     page_size = 5
-    ordering = "id"
+    ordering = ("-id")
